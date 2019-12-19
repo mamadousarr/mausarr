@@ -1,0 +1,20 @@
+RewriteEngine On
+
+RewriteRule ^acceuil$ acceuil.php
+RewriteRule ^.{0}$  acceuil.php
+RewriteRule ^clients$  view/client/clientgest.php
+RewriteRule ^formcli$  view/client/liste.php
+RewriteRule ^clientt$  view/client/clientt.php
+RewriteRule ^comptes$  view/compte/gestcompt.php
+RewriteRule ^formcompt$  view/compte/liste.php
+RewriteRule ^comptt$  view/compte/comptt.php
+
+RewriteRule ^controol$  controller/usercontroller.php
+
+
+RewriteRule ^clientcontroller$  controller/clientcontroller.php
+RewriteRule ^cl$  controller/cl.php
+RewriteRule ^comptecontroller$  controller/comptecontroller.php
+
+
+
